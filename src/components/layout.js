@@ -11,12 +11,13 @@ import PropTypes from "prop-types"
 import Header from "./header"
 import "./layout.css"
 
-const Layout = () => {
+const Layout = ({children}) => {
 
 
   return (
     <>
       <Header />
+      {children}
     </>
   )
 }
