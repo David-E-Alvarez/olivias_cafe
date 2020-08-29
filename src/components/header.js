@@ -5,9 +5,9 @@ import { Link } from "gatsby"
 const Header = () => (
   <header>
     <nav>
-      <h1>Olivias Cafe</h1> 
-      <Link to="/about/">About</Link>
-      <Link to="/contact/">Contact</Link>
+      <Link id="Link" to="/">Olivias Cafe</Link> 
+      <Link style={{textDecoration: "none"}} to="/about/">About</Link>
+      <Link style={{textDecoration: "none"}} to="/contact/">Contact</Link>
     </nav>
   </header>
 )
