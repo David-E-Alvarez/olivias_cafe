@@ -6,7 +6,8 @@ const Header = () => (
   <header>
     <nav>
       <h1>Olivias Cafe</h1> 
-
+      <Link to="/about/">About</Link>
+      <Link to="/contact/">Contact</Link>
     </nav>
   </header>
 )
